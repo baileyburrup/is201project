@@ -1,0 +1,53 @@
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+    background-color: rgb(98, 205, 240);
+    font-size: medium;
+}
+h2{
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+div{
+  position: relative;
+}
+p {
+  font-family: Geneva, Tahoma, sans-serif
+}
+}
+a:visited{
+  color: azure;
+}
+a{
+  color: rgb(240, 204, 158);
+}
+.common{  
+  position: absolute;  
+  padding: 5px;
+  margin: 5px;
+}
+.bottom{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-style: italic;
+  background-color: darkcyan;
+  font-size: small;
+}
+.top{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+.content{
+  top: 150px;
+  left: 0px;
+  right: 0px;
+}
+.nav{
+  z-index: 1;
+  position: relative;
+  float: right;
+}
